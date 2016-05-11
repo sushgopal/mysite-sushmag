@@ -1,0 +1,25 @@
+{
+	"version": "1.0.0",
+	"name": "Sushma G's personal website",
+	"launch_path": "/index.html",
+	"description": "Personal website of Sushma Gopalakrishnan.",
+	"icons": {
+
+	},
+	"developer": {
+		"name": "",
+		"url": ""
+	},
+	"installs_allowed_from": [
+		"*"
+	],
+	"default_locale": "en",
+	"permissions": {
+	},
+	"locales": {
+		"en": {
+			"name": "Sushma G's personal website",
+			"description": "Personal website of Sushma Gopalakrishnan."
+		}
+	}
+}
