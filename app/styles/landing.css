@@ -1,0 +1,73 @@
+html, body {
+	background-color: #F2F2F2;
+	color: #777;
+	font-family: Montserrat;
+	font-size: 24px;
+}
+
+a, a:hover, a:visited {
+	color: #777;
+}
+
+a:hover {
+	text-decoration:none;
+	font-weight: bold;
+};
+
+.header-padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.title-text-align {
+	text-align: center;
+
+	@media (min-width: 980px) {
+		text-align: left;
+	}
+}
+
+.menu-text-align {
+	text-align: center;
+
+	@media (min-width: 980px) {
+		text-align: right;
+	}
+}
+
+.mysite-img-sizes {
+	width: 100vw;
+	height: 45vh;
+
+	/* Larger than phablet */
+	@media (min-width: 550px) {
+		height: 60vh;
+	}
+}
+
+.mysite-no-padding {
+	padding: 0;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+/*@media (min-width: 480px) {}*/
+
+/* Larger than phablet */
+/*@media (max-width: 550px) {
+
+}*/
+
+/* Larger than tablet */
+/*@media (min-width: 768px) {}*/
+
+/* Larger than desktop */
+/*@media (min-width: 980px) {}*/
+
+/* Larger than Desktop HD */
+/*@media (min-width: 1200px) {}*/
+
+
+
+
