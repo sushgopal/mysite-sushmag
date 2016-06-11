@@ -12,7 +12,23 @@ a, a:hover, a:visited {
 a:hover {
 	text-decoration:none;
 	font-weight: bold;
-};
+}
+
+blockquote {
+	border: none;
+	font-size: 1.25em;
+	padding: 0% 0% 0% 0%;
+
+	@media (min-width: 1024px) {
+		padding: 30% 0% 20% 0%;
+	}
+}
+
+.footer {
+	background-color: #555;
+	color: #eee;
+	height: 15vh;
+}
 
 .header-padding {
 	padding-top: 10px;
@@ -35,18 +51,35 @@ a:hover {
 	}
 }
 
-.mysite-img-sizes {
-	width: 100vw;
-	height: 45vh;
-
-	/* Larger than phablet */
-	@media (min-width: 550px) {
-		height: 60vh;
-	}
+.quote-text-align {
+	text-align: center;
 }
 
-.mysite-no-padding {
+.mysite-img-sizes {
+	overflow: hidden;
+	width: 100vw;
 	padding: 0;
+
+	@media (orientation: landscape) {
+		height: 70vh;
+	}
+
+	@media (orientation: portrait) {
+		height: 40vh;
+	}
+
+	@media (min-width: 768px) {
+		height: 50vh;
+	}
+
+	@media (min-width: 1024px) {
+		width: 58vw;
+	}
+
+	@media (min-width: 1200px) {
+		height: 70vh;
+		padding: 10px;
+	}
 }
 
 /* Mobile first queries */
